@@ -1,21 +1,21 @@
 body{
-  background-image: url("foto/Lime-Scooter.jpg");
+  background-image: url(Lime-Scooter.jpg);
   background-size: cover;
 
 }
 
 .sfondo{
   background-color: rgba(40,20,30,0.75);
-  margin: 100px;
   margin-left: 200px;
   margin-right: 200px;
   border-radius: 20px;
   height: 700px;
 }
 
-header{
+header, nav{
   text-align: center
 }
+
 header>h2{
   color: #73d300;
   font-family: 'Pacifico', cursive;
@@ -25,11 +25,14 @@ header>h2{
   width: 350px;
 }
 
-.margine{
-  margin-left: 150px;
-  margin-right: 150px;
-  height: 35px;
-  padding-top: 10px;
+#buttonplace{
+  background-color: #73d300;
+  border-radius: 5px;
+}
+
+main{
+  font-family: 'verdana', sans-serif;
+  color: white;
 }
 
 .sezione{
@@ -40,20 +43,6 @@ h3{
   display: inline-block;
 }
 
-#buttonplace{
-  background-color: #73d300;
-  border-radius: 5px;
-
-}
-
-main{
-  font-family: 'verdana', sans-serif;
-  color: white;
-}
-
-.container{
-  counter-increment: x;
-}
 
 .barra1{
   width: 300px;
